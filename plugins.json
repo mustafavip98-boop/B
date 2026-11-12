@@ -3,7 +3,7 @@
     "packageName": "dev.mustafa.skystream.cinemana",
     "name": "Shabakaty Cinemana",
     "version": 1,
-    "url": "cinemana/plugin.js",
-    "pluginJson": "cinemana/plugin.json"
+    "url": "https://raw.githubusercontent.com/mustafavip98-boop/B/main/cinemana/plugin.js",
+    "pluginJson": "https://raw.githubusercontent.com/mustafavip98-boop/B/main/cinemana/plugin.json"
   }
 ]
