@@ -1,0 +1,10 @@
+{
+  "packageName": "dev.mustafa.skystream.cinemana",
+  "name": "Shabakaty Cinemana",
+  "version": 1,
+  "baseUrl": "https://cinemana.shabakaty.cc",
+  "description": "Arabic movies and series from Shabakaty Cinemana",
+  "authors": ["mustafavip98-boop"],
+  "languages": ["ar", "en"],
+  "categories": ["Movie", "TvSeries"]
+}
