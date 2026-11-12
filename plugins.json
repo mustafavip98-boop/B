@@ -1,0 +1,9 @@
+[
+  {
+    "packageName": "dev.mustafa.skystream.cinemana",
+    "name": "Shabakaty Cinemana",
+    "version": 1,
+    "url": "cinemana/plugin.js",
+    "pluginJson": "cinemana/plugin.json"
+  }
+]
