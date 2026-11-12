@@ -18,9 +18,13 @@
     return [];
   }
   async function get(path) {
-    var r = await fetch(API + path, { headers: { "Accept": "application/json, text/plain, */*", "User-Agent": UA } });
-    if (!r.ok) throw new Error("Cinemana API HTTP " + r.status + " at " + path);
-    var body = await r.text();
+    var r = await http_get(API + path, {
+      "Accept": "application/json, text/plain, */*",
+      "User-Agent": UA,
+      "Referer": "https://cinemana.shabakaty.cc/"
+    });
+    var body = r && r.body ? r.body : "";
+    if (!body) throw new Error("Cinemana returned an empty response for " + path);
     try { return JSON.parse(body); } catch (_) { throw new Error("Cinemana returned invalid JSON for " + path); }
   }
   function itemTitle(i) { return text(first(i, ["en_title", "ar_title", "title", "name"], "Cinemana item")); }
