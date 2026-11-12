@@ -1,0 +1,7 @@
+{
+  "name": "Mustafa Cinemana",
+  "packageName": "dev.mustafa.skystream.cinemana.repo",
+  "manifestVersion": 1,
+  "pluginLists": ["plugins.json"],
+  "description": "Shabakaty Cinemana plugin for SkyStream"
+}
